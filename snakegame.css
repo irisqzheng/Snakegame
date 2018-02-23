@@ -146,3 +146,9 @@ td {
   font-weight: 400;
   padding-bottom: 20px;
 }
+a {
+  text-decoration: none;
+}
+.small-padding{
+  padding:35px;
+}
