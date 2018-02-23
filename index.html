@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Snake Game</title>
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link rel="stylesheet" href=" snakegame.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <!--should go above-->
+</head>
+
+<body>
+
+  
+  <a id="toHomePage" href="../index.html"><i id="homePageIcon"class="fa fa-home"></i></a>
+  <h1 id="title"> SNAKE GAME</h1>
+  <p id="score">SCORE: 0</p>
+  <!--should be a div-->
+  <!-- <p> UP: W&nbsp;&nbsp;&nbsp;DONW: S&nbsp;&nbsp;&nbsp;LEFT: A&nbsp;&nbsp;&nbsp;RIGHT: D</p> -->
+  <p>Use W,A,S,D keys to control direction</p>
+  <div id="play-board">
+    <!--SHOULD BE A MAIN-->
+    <script src="snakegame6.js">
+    </script>
+    <!--at the end of the body-->
+
+    <div id='game-stop'>
+      <p id='gameover'>GAME OVER!</p>
+      <button id="restart-button" onclick="restartGame()">RESTART IT</button>
+    </div>
+    <div id='game-pause'>
+      <p id='gamepause'>PAUSE</p>
+      <button id="continue-button" onclick="continueGame()">CONTINUE</button>
+    </div>
+    <p>Use javascript Only. See code and more information my Git Hub<a href="#">aaa</a></p>
+  </div>
+
+
+
+</body>
+
+</html>
